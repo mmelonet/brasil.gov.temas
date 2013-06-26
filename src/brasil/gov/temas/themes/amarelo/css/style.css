@@ -1304,7 +1304,7 @@ dl.portlet div.listingBar a:link {
 	font-size: 0.9em;
 }
 #doormat-container {
-	background: #034811;
+	background: #f8c300;
 	float: none;
 }
 #doormat-container dl {
@@ -1318,7 +1318,7 @@ dl.portlet div.listingBar a:link {
 #doormat-container dt {
     font-weight: bold;
     font-size: 2em;
-    color: #7dc48a;
+    color: #2c66ce;
     padding-left: 12px;
 }
 #doormat-container dd {
@@ -1329,14 +1329,14 @@ dl.portlet div.listingBar a:link {
 }
 
 #footer {
-	background: #034811;
+	background: #f8c300;
 	padding: 20px 0;
 	width: 100%;
 	min-height: 50px;
 	color: #fff;
 }
 #footer a {
-	color: #fff;
+	color: #00500f;
 }
 
 #footer>div {
@@ -1346,6 +1346,16 @@ dl.portlet div.listingBar a:link {
 }
 #footer .logo-brasil img {
 	float: right;
+}
+#footer .wrap-footer {
+    max-width: 100%;
+    margin: 0 0 -20px;
+    padding: 2em 0;
+    background: #f28f00;
+}
+.wrap-footer>div {
+    max-width: 960px;
+    margin: 0 auto;
 }
 #extra-footer p {
 	max-width: 960px;
@@ -1432,7 +1442,7 @@ body.contraste #doormat-container .doormatColumn {
 
   .menuTrigger {
     text-indent: -9999px;
-    background: #065116 url('../img/bg-menu-mobile.png') top right no-repeat;
+    background: #f8b801 url('../img/bg-menu-mobile.png') top right no-repeat;
     height: 73px;
     display: block;
     cursor: pointer;
@@ -1606,13 +1616,9 @@ body.contraste #doormat-container .doormatColumn {
 		max-width: 40%;
 		margin: 1em;
 	}
-	
 	.portaltype-collection .tileImage {
 		float: none;
 	}
-
-
-
 }
 
 
