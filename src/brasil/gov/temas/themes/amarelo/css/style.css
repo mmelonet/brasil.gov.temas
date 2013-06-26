@@ -110,15 +110,15 @@ div.width-16 {
 /****************** cabecalho ******************/
 #header {
 	padding: 15px 0 0 0;
-	background-color: #0A5517;
-	background-color: #19882c; /* Old browsers */
-	background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #025310 100%); /* FF3.6+ */
-	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%,#025310)); /* Chrome,Safari4+ */
-	background-image: -webkit-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%); /* Chrome10+,Safari5.1+ */
-	background-image: -o-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%); /* Opera 12+ */
-	background-image: -ms-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%); /* IE10+ */
-	background-image: radial-gradient(ellipse at center,  #19882c 1%,#025310 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19882c', endColorstr='#025310',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-color: #fbdc49;
+	background-color: #fbdc49; /* Old browsers */
+	background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #f8c504 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#fbdc49), color-stop(100%,#f8c504)); /* Chrome,Safari4+ */
+	background-image: -webkit-radial-gradient(center, ellipse cover,  #fbdc49 1%,#f8c504 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-radial-gradient(center, ellipse cover,  #fbdc49 1%,#f8c504 100%); /* Opera 12+ */
+	background-image: -ms-radial-gradient(center, ellipse cover,  #fbdc49 1%,#f8c504 100%); /* IE10+ */
+	background-image: radial-gradient(ellipse at center,  #fbdc49 1%,#f8c504 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc49', endColorstr='#f8c504',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	color: #fff;
 }
 
@@ -143,13 +143,13 @@ div.width-16 {
 }
 
 #accessibility a {
-	color: #dcffe3;
+	color: #00500f;
 	margin-right: 8px;
 }
 
 #accessibility span {
-	background: #9ed5ab;
-	color: #006600;
+	background: #4b791d;
+	color: #fff;
 	padding: 0 4px;
 }
 
@@ -167,7 +167,7 @@ div.width-16 {
 #logo a {
 	display:block;
 	width:100%;
-	color: #fff !important;
+	color: #03316f !important;
 	margin: 1em 0px;
 }
 
@@ -228,7 +228,7 @@ div.width-16 {
    display: block;
    float: right;
 	clear: none;
-	border-bottom: 1px dotted #9bc2a3;
+	border-bottom: 1px dotted #c2b261;
 	padding-bottom: 5px;
 }
 
@@ -238,7 +238,7 @@ div.width-16 {
 }
 
 #portal-siteactions a {
-	color: #dcffe3;
+	color: #00500f;
 	text-decoration: none;
 	padding: 4px 0 4px 10px;
 	text-transform: uppercase;
@@ -271,7 +271,7 @@ div.width-16 {
 	clear: both;
 	max-width: 100% !important;
 	margin: 0;
-	background: #0a5517;
+	background: #f8b801;
 	padding: 5px 0;
 }
 
@@ -281,12 +281,12 @@ div.width-16 {
 	text-align: right;
 }
 #sobre a {
-	color: #fff;
+	color: #00500f;
 }
 
 #sobre .portalservicos-item a {
 	padding: 0 10px;
-	border-right: 1px solid #fff;	
+	border-right: 1px solid #c6a64b;	
 }
 #sobre .last-item a {
 	padding: 0 0 0 10px;
@@ -309,7 +309,7 @@ input.searchField {
     border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	border: 1px solid #CCCCCC;
+	border: 1px solid #e89d11;
 	background: #fff;
 	padding: 2px;
 }
