@@ -112,13 +112,13 @@ div.width-16 {
 	padding: 15px 0 0 0;
 	background-color: #fbdc49;
 	background-color: #fbdc49; /* Old browsers */
-	background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #f8c504 100%); /* FF3.6+ */
-	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#fbdc49), color-stop(100%,#f8c504)); /* Chrome,Safari4+ */
-	background-image: -webkit-radial-gradient(center, ellipse cover,  #fbdc49 1%,#f8c504 100%); /* Chrome10+,Safari5.1+ */
-	background-image: -o-radial-gradient(center, ellipse cover,  #fbdc49 1%,#f8c504 100%); /* Opera 12+ */
-	background-image: -ms-radial-gradient(center, ellipse cover,  #fbdc49 1%,#f8c504 100%); /* IE10+ */
-	background-image: radial-gradient(ellipse at center,  #fbdc49 1%,#f8c504 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc49', endColorstr='#f8c504',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-linear-gradient(top,  rgba(251,223,80,1) 0%, rgba(250,207,34,1) 35%, rgba(249,204,23,1) 50%, rgba(249,202,20,1) 51%, rgba(248,198,10,1) 70%, rgba(248,200,11,1) 71%, rgba(248,198,8,1) 73%, rgba(248,196,4,1) 96%, rgba(248,195,2,1) 99%, rgba(248,184,1,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,223,80,1)), color-stop(35%,rgba(250,207,34,1)), color-stop(50%,rgba(249,204,23,1)), color-stop(51%,rgba(249,202,20,1)), color-stop(70%,rgba(248,198,10,1)), color-stop(71%,rgba(248,200,11,1)), color-stop(73%,rgba(248,198,8,1)), color-stop(96%,rgba(248,196,4,1)), color-stop(99%,rgba(248,195,2,1)), color-stop(100%,rgba(248,184,1,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(251,223,80,1) 0%,rgba(250,207,34,1) 35%,rgba(249,204,23,1) 50%,rgba(249,202,20,1) 51%,rgba(248,198,10,1) 70%,rgba(248,200,11,1) 71%,rgba(248,198,8,1) 73%,rgba(248,196,4,1) 96%,rgba(248,195,2,1) 99%,rgba(248,184,1,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(251,223,80,1) 0%,rgba(250,207,34,1) 35%,rgba(249,204,23,1) 50%,rgba(249,202,20,1) 51%,rgba(248,198,10,1) 70%,rgba(248,200,11,1) 71%,rgba(248,198,8,1) 73%,rgba(248,196,4,1) 96%,rgba(248,195,2,1) 99%,rgba(248,184,1,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(251,223,80,1) 0%,rgba(250,207,34,1) 35%,rgba(249,204,23,1) 50%,rgba(249,202,20,1) 51%,rgba(248,198,10,1) 70%,rgba(248,200,11,1) 71%,rgba(248,198,8,1) 73%,rgba(248,196,4,1) 96%,rgba(248,195,2,1) 99%,rgba(248,184,1,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(251,223,80,1) 0%,rgba(250,207,34,1) 35%,rgba(249,204,23,1) 50%,rgba(249,202,20,1) 51%,rgba(248,198,10,1) 70%,rgba(248,200,11,1) 71%,rgba(248,198,8,1) 73%,rgba(248,196,4,1) 96%,rgba(248,195,2,1) 99%,rgba(248,184,1,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdf50', endColorstr='#f8b801',GradientType=0 ); /* IE6-9 */
 	color: #fff;
 }
 
@@ -271,7 +271,7 @@ div.width-16 {
 	clear: both;
 	max-width: 100% !important;
 	margin: 0;
-	background: #f8b801;
+	background: url(../img/bg-menu-sobre.gif) repeat-x bottom left;
 	padding: 5px 0;
 }
 
@@ -286,7 +286,7 @@ div.width-16 {
 
 #sobre .portalservicos-item a {
 	padding: 0 10px;
-	border-right: 1px solid #c6a64b;	
+	border-right: 1px solid #c6a64b;
 }
 #sobre .last-item a {
 	padding: 0 0 0 10px;
@@ -306,9 +306,9 @@ input.searchField {
     font-size: 80%;
     margin: 2em 0 1.2em 0;
     text-align: right;
-    border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border: 1px solid #e89d11;
 	background: #fff;
 	padding: 2px;
@@ -391,9 +391,9 @@ input.searchField {
 
 .portlet img, #content img {
     max-width:100%;
-	 border-radius: 5px; 
-	 -moz-border-radius: 5px; 
-	 -webkit-border-radius: 5px; 
+	 border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
 }
 
 
@@ -501,9 +501,9 @@ table.listing tbody th {
 	margin-bottom: 2em;
    padding: 1em;
    border: 1px solid #d5d5d5;
-   border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+   border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 .template-view.portaltype-collective-nitf-content  #content-core li {
    border-bottom: 1px dotted #d5d5d5;
@@ -519,9 +519,9 @@ table.listing tbody th {
 
 #related-items {
 	position: relative;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	background: #eeefff;
 	border: 1px solid #d5d5d5 !important;
 	padding-top: 30px;
@@ -579,7 +579,7 @@ dl.portlet dt.hiddenStructure {
 	background: #eeefff;
 	-moz-border-radius: 5px;
     border-radius: 5px;
-	 -webkit-border-radius: 5px; 
+	 -webkit-border-radius: 5px;
 }
 
 #portal-column-two dl.portlet a:link,
@@ -653,7 +653,7 @@ dl.portlet dt a:visited {
 .portletCollection .portletItem a {
 	clear: none;
 }
-.portletNews .portletItem .portletItemDetails, 
+.portletNews .portletItem .portletItemDetails,
 .portletCollection .portletItem .portletItemDetails {
     display: block;
     float: left;
@@ -808,9 +808,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	display: table;
 	background: #e8e7e7;
 	width: 100%;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	margin-bottom: 2em;
 }
 #em-destaque li {
@@ -831,9 +831,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: #6f7681 url("../img/em-destaque.png") right center no-repeat;
 	color: #fff;
 	border-right: none;
-	border-radius: 5px 0 0 5px; 
-	-moz-border-radius: 5px 0 0 5px; 
-	-webkit-border-radius: 5px 0 0 5px; 
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
 }
 #portal-features {
 	text-align: right;
@@ -896,9 +896,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .lista-horizontal {
 	background: #eeeff1 !important;
 	border: 1px solid #c0c1c3;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 .lista-horizontal .tile-title {
 	border-bottom: 1px solid #c0c1c3;
@@ -996,7 +996,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .outstanding-header h3 {font-size: 1.5em;}
 .outstanding-header h4 {font-size: 1.3em;}
 
-.outstanding-header .outstanding-link {  
+.outstanding-header .outstanding-link {
     display: block;
     font-size: 0.7em;
     padding-right: 30px;
@@ -1115,7 +1115,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .template-summary_view #content .tileBody,
 .template-folder_summary_view #content .tileBody {
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 
 .template-summary_view #content .tileBody .description,
@@ -1167,7 +1167,7 @@ dl.portlet div.listingBar a:link {
 .template-search .searchResults dt a {
     color: #172734 !important;
     font-size: 1.3em;
-    padding-left: 23px; 
+    padding-left: 23px;
 }
 
 .template-search .searchResults dt.contenttype-collective-nitf-content a {padding-left: 7px;}
@@ -1233,9 +1233,9 @@ dl.portlet div.listingBar a:link {
 
 #search-filter .field,
 #search-filter {background:transparent !Important;}
-  
+
 #search-filter .field input {margin-right: 8px;}
-       
+
 #search-results-bar dd.actionMenuContent {display:block;}
 
 .template-search #search-results-bar dl {width: 97%;    margin-left:20px !important;}
@@ -1272,8 +1272,8 @@ dl.portlet div.listingBar a:link {
 }
 
 .template-search #content .cell {
-	width:96% !Important; 
-	border-bottom: 1px solid #D3D3D3; 
+	width:96% !Important;
+	border-bottom: 1px solid #D3D3D3;
     padding-bottom:20px;}
 
 .template-search #search-term {font-weight:bold !Important;}
@@ -1309,7 +1309,7 @@ dl.portlet div.listingBar a:link {
 }
 #doormat-container dl {
 	margin: 0 0 20px 0;
-	border-left: 1px dotted #7dc48a;
+	border-left: 1px dotted #a28827;
 }
 #doormat-container .doormatColumn {
     text-align: left;
@@ -1381,7 +1381,7 @@ body.contraste .timeline a {
 	color: #fff !important;
 }
 
-body.contraste #accessibility span { 
+body.contraste #accessibility span {
     background: #fff !important;
     color: #000 !important;
 }
@@ -1395,7 +1395,7 @@ body.contraste h5,
 body.contraste h6,
 body.contraste #plone-document-byline,
 body.contraste #doormat-container dt,
-body.contraste #content .documentDescription, 
+body.contraste #content .documentDescription,
 body.contraste #content #description,
 body.contraste .nitfByline,
 body.contraste p.section {
@@ -1477,7 +1477,7 @@ body.contraste #doormat-container .doormatColumn {
     display: block;
     background: url('../img/bg-menu-mobile-panel.png') top center no-repeat;
     width: 37px;
-    height: 36px; 
+    height: 36px;
     position: absolute;
     top: 18px;
     right: 20px;
@@ -1487,7 +1487,7 @@ body.contraste #doormat-container .doormatColumn {
     background-position: bottom center;
   }
 
-  
+
    #portal-column-one .portletNavigationTree .portletHeader a {
     padding: 20px 35px;
     font-size: 24px;
@@ -1567,18 +1567,18 @@ body.contraste #doormat-container .doormatColumn {
 	#header {
 		padding: 1em 0.5em;
 	}
-	
+
 	#language {
 		float: left;
 		margin-left: 0.5em;
 	}
-	
+
 	#social-icons {
 		top: 1em;
 		right: 0;
 		position: absolute;
 	}
-	
+
 	#logo #portal-title {
 		font-size: 2em;
 	}
@@ -1633,15 +1633,15 @@ ul.formTabs{
 
 /* CSS de impressao */
 
-@media print { 
- #header, 
+@media print {
+ #header,
  #footer,
  #em-destaque,
  #viewlet-social-like,
  #voltar-topo,
- #portal-features { 
- 	display: none !important; 
- } 
+ #portal-features {
+ 	display: none !important;
+ }
  .cell {
  	width: 100%;
  	margin: 0 !important;
