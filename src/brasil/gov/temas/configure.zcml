@@ -15,12 +15,6 @@
 
     <plone:static
         type="theme"
-        name="azul"
-        directory="themes/azul"
-        />
-
-    <plone:static
-        type="theme"
         name="amarelo"
         directory="themes/amarelo"
         />
