@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
+    [rodfersou]
   * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
   * Revisão de fontes com fallbacks definidos (closes `#30`_). [rodfersou]
   * Correção de css no tamanho de fonts e espaçamentos da homepage
@@ -73,3 +75,4 @@ Changelog
 .. _`#26`: https://github.com/plonegovbr/brasil.gov.temas/issues/26
 .. _`#30`: https://github.com/plonegovbr/brasil.gov.temas/issues/30
 .. _`#35`: https://github.com/plonegovbr/brasil.gov.temas/issues/35
+.. _`#38`: https://github.com/plonegovbr/brasil.gov.temas/issues/38
