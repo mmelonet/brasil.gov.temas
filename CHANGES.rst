@@ -4,6 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
   * Ajustes de layout nos espaçamentos e fontes do cabeçalho (header) do portal (closes `#32`_).
     [felipeduardo]
   * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
